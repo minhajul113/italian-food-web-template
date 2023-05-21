@@ -1,0 +1,509 @@
+/* Tablet Layout */
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+
+    /* header content responsive */
+    nav .contact-number {
+        left: -40%;
+    }
+
+    .inner-menu {
+        left: 8%;
+    }
+
+    nav .inner-menu ul li {
+        margin-right: 40px;
+    }
+
+    .contact-number span {
+        font-size: 18px;
+        top: 0;
+        position: relative;
+    }
+
+    .contact-number p {
+        font-size: 14px;
+        top: 15px;
+    }
+
+    .contact-number img {
+        margin-left: 15px;
+        width: 20px;
+        margin-top: 0;
+    }
+
+    .logo-container {
+        padding: 0;
+    }
+
+    .logo {
+        margin: 15px;
+    }
+
+    .logo img {
+        width: 180px;
+    }
+
+    #header-content {
+        margin-top: 20px;
+    }
+
+    #header-content .inner-header-title {
+        margin: 0 0 80px 0;
+
+    }
+
+    #header-content .inner-header-title h1 {
+        font-size: 30px;
+    }
+
+    #header-content .inner-header-title h2 {
+        font-size: 60px;
+        right: -80px;
+    }
+
+    #header-content .inner-header-title h3 {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    .head-order-btn {
+        overflow: hidden;
+        margin-left: 80px;
+    }
+
+    #header-content .inner-header-title hr {
+        margin-top: 42px;
+        opacity: 0.6;
+        width: 300px;
+        margin-left: 80px;
+    }
+
+    /* header content responsive */
+
+    /* main menu responsive */
+    nav {
+        margin-right: 34px;
+    }
+
+    .inner-menu {
+        position: absolute;
+        right: -40%;
+        top: 60px;
+        background: rgba(68, 59, 53, 0.31);
+        border-radius: 9px;
+        width: 300px;
+        height: 0;
+        overflow: hidden;
+        backdrop-filter: blur(15px);
+        transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        display: none;
+        z-index: 999999;
+    }
+
+    nav .inner-menu ul li {
+        display: flex;
+        padding: 0.7rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+
+    }
+
+    nav .inner-menu ul li a {
+        display: block;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    #main-menu .toggle-btn {
+        display: block;
+        position: relative;
+        right: 0;
+        float: right;
+    }
+
+    .inner-menu.open {
+        height: 250px;
+    }
+
+    .inner-menu {
+        display: block;
+
+    }
+
+    /* main menu responsive */
+
+    /* product section responsive */
+    .products-title h2 {
+        font-size: 40px;
+    }
+
+    .product {
+        width: 250px;
+    }
+
+    .products {
+        height: 0vh;
+        margin: 15% 0;
+    }
+
+    .product img {
+        width: 200px;
+    }
+
+    .product h3 {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .product p {
+        font-size: 14px;
+        margin: 20px 0;
+    }
+
+    .product a {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    /* product section responsive */
+
+    /* event section responsive */
+    .event-text {
+        margin-top: 100px;
+    }
+
+    .event-text h2 {
+        font-size: 18px;
+    }
+
+    .event-text h3 {
+        font-size: 30px;
+    }
+
+    .slider-img-body {
+        width: 400px;
+    }
+
+    
+
+    /* event section responsive */
+
+    /* popular product section responsive */
+    .align-left {
+        width: 50%;
+        margin: 1%;
+
+    }
+
+    .align-right {
+        width: 40%;
+    }
+
+    /* popular product section responsive */
+
+    /* booking form section responsive */
+    #booking-form .left-input {
+        margin-left: 15%;
+    }
+
+    /* booking form section responsive */
+
+    /* footer section responsive */
+    footer {
+        height: 1%;
+    }
+
+    .social-icon {
+        left: 133px;
+        bottom: -180px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .contact-info {
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    .left-footer p {
+        margin-bottom: 2em;
+        font-size: 15px;
+
+    }
+
+    .right-footer {
+        top: 50px;
+    }
+
+    /* footer section responsive */
+
+
+
+
+
+}
+
+
+/* mobile layout */
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+    .logo img {
+        width: 150px;
+    }
+
+    nav .contact-number {
+        display: none;
+    }
+
+    .contact-number img {
+        margin-left: -126px;
+        width: 16px;
+      }
+
+    .contact-number span {
+        font-size: 12px;
+    }
+
+    .contact-number p {
+        font-size: 14px;
+        top: 10px;
+    }
+
+    .contact-mobile {
+        display: block;
+        left: 60%;
+        position: relative;
+        top: -30px;
+    }
+
+    .inner-menu {
+        position: absolute;
+        right: 2rem;
+        top: 30px;
+        background: rgba(68, 59, 53, 0.31);
+        border-radius: 9px;
+        width: unset;
+        overflow: hidden;
+        backdrop-filter: blur(15px);
+    }
+
+    #main-menu .toggle-btn {
+        right: 0;
+        top: 20px;
+
+    }
+
+    #header-content .inner-header-title h1 {
+        font-size: 25px;
+        margin-top: 12px;
+        margin-left: -25%;
+    }
+
+    #header-content .inner-header-title h2 {
+        font-size: 30px;
+        right: -27px;
+        position: static;
+    }
+
+    #header-content .inner-header-title h3 {
+        font-size: 12px;
+        letter-spacing: 0px;
+        margin-right: 80px;
+    }
+
+    #header-content .inner-header-title hr {
+        margin-top: 9px;
+        width: 177px;
+        margin-left: 20px;
+    }
+
+    .head-order-btn {
+        overflow: hidden;
+        margin-left: 40px;
+    }
+
+    .head-order-btn p {
+        font-weight: 200;
+        position: relative;
+        left: -66px;
+        margin-top: 33px;
+        bottom: 15px;
+    }
+
+    .head-order-btn h4 {
+        position: relative;
+        top: -12px;
+        font-size: 18px;
+        margin-left: -165px;
+        font-weight: 200;
+    }
+
+    .head-order-btn button {
+        padding: 6px 30px;
+        bottom: 6px;
+        position: relative;
+        font-size: 15px;
+    }
+
+    .products-title h2 {
+        font-size: 30px;
+    }
+
+    .products-title>p {
+        font-size: 14px;
+    }
+
+    .products {
+        display: inline-block;
+        background: none;
+        margin: 5% 0;
+    }
+
+    .product img {
+        margin-top: 50px;
+    }
+
+    .event-text h2 {
+        font-size: 15px;
+    }
+
+    .event-text h3 {
+        font-size: 25px;
+    }
+
+    .event-text p {
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .slider-img-body {
+        width: 480px;
+    }
+
+    .arrow{
+        display: initial;
+        background: transparent;
+    }
+    .form-text h2 {
+        font-size: 18px;
+    }
+
+    .form-text h3 {
+        font-size: 30px;
+    }
+
+    .right-input {
+        margin-left: 15%;
+    }
+
+    #booking-form {
+        margin-left: 5%;
+    }
+
+    .left-footer {
+        float: none;
+        padding-top: 20px;
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .right-footer {
+        width: 70%;
+    }
+
+    .contact-info {
+        margin-left: -50px;
+        width: 100%;
+    }
+
+    .social-icon {
+        left: 52px;
+        bottom: 159px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .left-footer p {
+        margin-bottom: 4em;
+        font-size: 14px;
+        width: 90%;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 340px) {
+    #main-menu .toggle-btn {
+        right: 0;
+        top: 20px;
+    }
+
+    nav .contact-number {
+        display: none;
+    }
+
+    .contact-number img {
+        margin-left: -100px;
+        width: 14px;
+    }
+
+    .contact-number span {
+        font-size: 10px;
+    }
+
+    .contact-number p {
+        font-size: 10px;
+    }
+
+    .contact-mobile{
+        left: 40%;
+    }
+
+    .head-order-btn p {
+        font-weight: 200;
+        position: relative;
+        left: -66px;
+        margin-top: 33px;
+        bottom: 15px;
+    }
+
+    .head-order-btn h4 {
+        position: relative;
+        top: -12px;
+        font-size: 18px;
+        margin-left: -165px;
+        font-weight: 200;
+    }
+
+    .head-order-btn button {
+        padding: 6px 30px;
+        bottom: 6px;
+        position: relative;
+        font-size: 13px;
+    }
+
+    #booking-form .left-input {
+        margin-left: -4%;
+    }
+
+    .right-input {
+        margin-left: -4%;
+    }
+
+    .arrow-left, .arrow-right {
+        top: 90%;
+      }
+
+
+
+
+}
